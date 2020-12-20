@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+img{
+    width: auto;
+    max-width: 100%;
+}
+
+.box{
+    position: relative;
+    display: block;
+}
+
+.small-image{
+    width: 100px;
+}
+
+.output{
+    position: absolute;
+    display: none;
+}
+
+.box:hover .output{
+    display: block;
+}
